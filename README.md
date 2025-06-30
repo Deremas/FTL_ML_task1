@@ -17,22 +17,10 @@ This project uses **Machine Learning** to classify rivers based on their plastic
 - Format: CSV
 - Loaded directly from [Google Drive](https://drive.google.com/file/d/1zIk9JOdJEu9YF7Xuv2C8f2Q8ySfG3nHd/view)
 
----
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Steps Overview](#code-steps-overview)
-- [Saved Visualizations](#saved-visualizations)
-- [Notes](#notes)
-
----
-
 ## 🧠 Machine Learning Pipeline
 
 ### 🔹 Step-by-Step:
+
 1. **Data Loading & Cleaning**
 2. **Handling missing values**
 3. **Feature Engineering** – Create `plastic_contribution` column
@@ -60,3 +48,4 @@ Make sure you have all dependencies installed:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib shap imbalanced-learn xgboost
+```
